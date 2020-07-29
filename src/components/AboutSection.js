@@ -9,7 +9,7 @@ export default function AboutSection() {
           <h4 className="text-orange">CONNECTING THE DISCONNECTED</h4>
           <h1>
             <span className="text-orange">Vyorius</span> brings unmanned robots
-            <span className="text-orange">together</span>,<br />
+            <span className="text-orange"> together</span>,<br />
             wherever they are
           </h1>
           <p>
