@@ -1,13 +1,154 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --orange: rgb(237, 125, 49);
+  --gray: rgb(127, 127, 127);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+/* navbar  */
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-bottom: 1px solid rgb(221, 220, 220);
+}
+
+nav .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.brand {
+  width: 75px;
+  height: 25px;
+  margin: 0 5px;
+}
+
+nav ul.links {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  margin-left: 30px;
+}
+
+nav ul.links li {
+  margin: 5px;
+}
+
+nav ul.links li a {
+  color: var(--gray);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav .btn-container {
+  margin-left: auto;
+  margin-right: 3%;
+}
+
+/* about  */
+
+.container {
+  max-width: 100%;
+  width: 94%;
+  margin: 0px auto;
+  padding: 20px 0;
+  display: flex;
+  padding-top: 5%;
+}
+.left {
+  padding-right: 10px;
+  flex: 1;
+}
+.right {
+  padding-left: 10px;
+  flex: 1;
+}
+
+.container h4 {
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.container h1 {
+  font-size: 3.4rem;
+  margin: 0;
+  line-height: 110%;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.container p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+}
+
+.container p.get-started {
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+
+.container p.get-started a {
+  color: #6161dc;
+}
+/* buttons  */
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 2px;
+}
+.btn-primary {
+  background: var(--orange);
+  color: white;
+}
+.btn-reverse {
+  background: white;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.btn-large {
+  width: 45%;
+  padding: 3% 0;
+  border-radius: 10px;
 }
