@@ -22,7 +22,7 @@ export default function AboutSection() {
             <button className="btn btn-reverse btn-large">Learn More</button>
           </div>
           <p className="get-started">
-            Need to order a delivery? <a href="#">Get Started</a>
+            Need to order a delivery? <a href="/">Get Started</a>
           </p>
         </div>
         <div className="right">

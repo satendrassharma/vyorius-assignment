@@ -11,25 +11,25 @@ function Navbar() {
       </div>
       <ul className="links">
         <li>
-          <a href="#">Why Vyorius?</a>
+          <a href="/">Why Vyorius?</a>
         </li>
         <li>
-          <a href="#">Solutions</a>
+          <a href="/">Solutions</a>
         </li>
         <li>
-          <a href="#">Product</a>
+          <a href="/">Product</a>
         </li>
         <li>
-          <a href="#">Use Cases</a>
+          <a href="/">Use Cases</a>
         </li>
         <li>
-          <a href="#">Team</a>
+          <a href="/">Team</a>
         </li>
         <li>
-          <a href="#">Partners</a>
+          <a href="/">Partners</a>
         </li>
         <li>
-          <a href="#">Contact us</a>
+          <a href="/">Contact us</a>
         </li>
       </ul>
       <div className="btn-container">
